@@ -1,0 +1,12 @@
+.header {
+    background-color: #333;    /* Dark background */
+    color: white;              /* Light text */
+    text-align: center;        /* Center the text */
+    padding: 10px 0;           /* Some padding top and bottom */
+    position: fixed;           /* Fixed position */
+    top: 0;                    /* Stick to the top */
+    left: 0;                   /* Align to the left */
+    width: 100%;               /* Full width */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Optional: adds a shadow for depth */
+    z-index: 1000;             /* Ensure it stays on top of other content */
+}
